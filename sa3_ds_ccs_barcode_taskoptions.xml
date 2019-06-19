@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipeline-template-preset>
+	<task-options>
+		<option id="pbcoretools.task_options.score_mode">
+        		<value>symmetric</value>
+    		</option>
+		<option id="lima.task_options.isoseq_mode">
+			<value>False</value>
+		</option>
+		<option id="lima.task_options.library_same_tc">
+			<value>True</value>
+		</option>
+		<option id="lima.task_options.minscore">
+			<value>5</value>
+		</option>
+		<option id="lima.task_options.peek_guess_tc">
+			<value>True</value>
+		</option>
+		<option id="pbccs.task_options.by_strand">
+			<value>True</value>
+		</option>
+		<option id="pbccs.task_options.max_drop_fraction">
+			<value>0.8</value>
+		</option>
+		<option id="pbccs.task_options.max_length">
+			<value>50000</value>
+		</option>
+		<option id="pbccs.task_options.min_identity">
+			<value>0.8</value>
+		</option>
+		<option id="pbccs.task_options.min_length">
+			<value>50</value>
+		</option>
+		<option id="pbccs.task_options.min_passes">
+			<value>1</value>
+		</option>
+		<option id="pbccs.task_options.min_predicted_accuracy">
+			<value>0.8</value>
+		</option>
+		<option id="pbccs.task_options.min_read_score">
+			<value>0.65</value>
+		</option>
+		<option id="pbccs.task_options.min_snr">
+			<value>3.75</value>
+		</option>
+		<option id="pbccs.task_options.min_zscore">
+			<value>-9999.0</value>
+		</option>
+		<option id="pbccs.task_options.polish">
+			<value>True</value>
+		</option>
+		<option id="pbccs.task_options.report_file">
+			<value>ccs_report.txt</value>
+		</option>
+		<option id="pbccs.task_options.rich_qvs">
+			<value>False</value>
+		</option>
+</task-options>
+</pipeline-template-preset>

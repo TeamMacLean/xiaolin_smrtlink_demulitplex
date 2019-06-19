@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipeline-template-preset>
+    <!-- Pipeline Engine Level Options -->
+    <options>
+        <option id="pbsmrtpipe.options.max_nchunks" >
+            <value>512</value>
+        </option>
+
+        <option id="pbsmrtpipe.options.cluster_manager" >
+        	<value>/tsl/software/testing/smrtlink/6.0/x86_64/install/smrtlink-release_6.0.0.47841/bundles/smrttools/install/smrttools-release_6.0.0.47835/private/pacbio/pythonpkgs/pbsmrtpipe/lib/python2.7/site-packages/pbsmrtpipe/cluster_templates/slurm/</value>
+	</option>
+
+        <option id="pbsmrtpipe.options.max_nproc">
+            <value>1</value>
+        </option>
+
+        <option id="pbsmrtpipe.options.chunk_mode">
+            <value>True</value>
+        </option>
+
+        <option id="pbsmrtpipe.options.max_total_nproc">
+            <value>512</value>
+        </option>
+
+        <option id="pbsmrtpipe.options.distributed_mode">
+            <value>True</value>
+        </option>
+
+        <option id="pbsmrtpipe.options.progress_status_url">
+            <value>None</value>
+        </option>
+
+        <option id="pbsmrtpipe.options.max_nworkers">
+            <value>512</value>
+        </option>
+
+    </options>
+
+</pipeline-template-preset>
+
