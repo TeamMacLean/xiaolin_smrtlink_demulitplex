@@ -1,2 +1,2 @@
-# xiaolin_smrtlink_demulitplex
-Sequel data demulitplexing
+# xiaolin_smrtlink_demultiplex
+Sequel data demultiplexing
